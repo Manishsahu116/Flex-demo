@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(178, 199, 220, 0.705);
+}
+
+nav {
+    background-color: rgb(8, 108, 248);
+    padding: 12px 0;
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+ul li {
+    list-style: none;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+ul li a:hover{
+    color: black;
+    font-size: 15px;
+}
+
+.container {
+    margin: 18px;
+    display:flex;
+}
+
+.card,
+.card2 {
+    margin-left: 20vh;
+    width: 530px;
+    border: 1px solid rgb(28, 28, 28);
+    border-radius: 20px;
+    background-color: rgba(221, 220, 220, 0.779);
+}
+
+img {
+    border-radius: 20px;
+    width: 500px;
+    margin: 15px;
+}
+
+span {
+    color: gray;
+    padding : 5px;
+    margin-left: 70px;
+    border: 0.2px solid gray;
+}
+
+a {
+    margin-left: 40%;
+}
+
+h2,
+p {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.container2 {
+    text-align: center;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    margin : 5vh 20vh;
+    padding: 2px;
+}
+.obj img{
+    border-radius: 50%;
+    width: 70px;
+    margin-left: 198vh;
+    position: fixed;
+    bottom: 10px;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    background-color:gray;
+    padding: 10px;
+    position: static;
+    bottom: 0px;
+}
