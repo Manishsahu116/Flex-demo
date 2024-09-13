@@ -13,30 +13,35 @@ nav {
     position: sticky;
     top: 0px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: center;
     height: auto;
+    flex-wrap: wrap;
 }
+
 ul li {
     list-style: none;
     padding: 10px;
     color: white;
     font-weight: bolder;
 }
-ul li a{
+
+ul li a {
     color: white;
     text-decoration: none;
     margin: 10px;
 }
-ul li a:hover{
+
+ul li a:hover {
     color: black;
     font-size: 15px;
 }
 
 .container {
     margin: 18px;
-    display:flex;
+    display: flex;
 }
 
 .card,
@@ -56,7 +61,7 @@ img {
 
 span {
     color: gray;
-    padding : 5px;
+    padding: 5px;
     margin-left: 70px;
     border: 0.2px solid gray;
 }
@@ -75,10 +80,11 @@ p {
     text-align: center;
     border: 0.5px solid black;
     border-radius: 20px;
-    margin : 5vh 20vh;
+    margin: 5vh 20vh;
     padding: 2px;
 }
-.obj img{
+
+.obj img {
     border-radius: 50%;
     width: 70px;
     margin-left: 198vh;
@@ -86,10 +92,34 @@ p {
     bottom: 10px;
     cursor: pointer;
 }
-footer{
+
+footer {
     text-align: center;
-    background-color:gray;
+    background-color: gray;
     padding: 10px;
     position: static;
     bottom: 0px;
+}
+
+@media (max-width:475px) {
+    .container {
+        flex-direction: column;
+        width: 350px;
+    }
+
+    .container2 {
+        margin: 20px 20px;
+    }
+
+    .card,
+    .card2 {
+        margin-left: auto;
+        margin: 10px;
+        width: auto;
+    }
+
+    img {
+        width: 300px;
+    }
+
 }
